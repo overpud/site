@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taha Qureshi | Systems & Cloud Engineer</title>
+    <meta
+      name="description"
+      content="Personal career website for Taha Qureshi: systems engineering experience across AWS Route53, Kubernetes, Linux infrastructure, and automation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top">Taha Qureshi</a>
+        <button id="menuBtn" class="menu-btn" aria-expanded="false" aria-controls="primaryNav">
+          Menu
+        </button>
+        <nav id="primaryNav" class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <p class="kicker">Open to Systems / Cloud / SRE opportunities</p>
+            <h1>Systems Engineer with production experience in AWS, Linux, Kubernetes, and automation.</h1>
+            <p class="lead">
+              I build reliable infrastructure and operational tooling that improves service stability,
+              speeds up troubleshooting, and reduces manual work.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Contact me</a>
+              <a class="btn btn-secondary" href="#experience">View experience</a>
+            </div>
+          </div>
+          <aside class="summary-card" aria-label="Career snapshot">
+            <h2>Career Snapshot</h2>
+            <ul>
+              <li><strong>Current:</strong> System Engineer at Clearwater Analytics (Enfusion)</li>
+              <li><strong>Focus:</strong> Linux infrastructure, DNS systems, and automation</li>
+              <li><strong>Platforms:</strong> AWS, Kubernetes, VMware, Kafka, ELK, SaltStack</li>
+              <li><strong>Languages:</strong> Python, Bash, Ansible</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container narrow">
+          <h2>About</h2>
+          <p>
+            I am a hands-on infrastructure engineer experienced in large-scale production
+            environments. My work spans cloud platform operations, automation scripting, observability,
+            and cross-team incident response. I enjoy simplifying complex operational workflows and
+            improving reliability through practical engineering.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <h2>Work Experience</h2>
+
+          <article class="timeline-item">
+            <header>
+              <h3>Clearwater Analytics (Enfusion) · System Engineer</h3>
+              <p>Aug 2024 — Present</p>
+            </header>
+            <ul>
+              <li>Leading systems and production engineering initiatives to improve platform reliability and operational efficiency.</li>
+              <li>Building and maintaining automation workflows for infrastructure operations and support processes.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <header>
+              <h3>Amazon Web Services (Route53) · System Engineer</h3>
+              <p>Aug 2022 — Aug 2024</p>
+            </header>
+            <ul>
+              <li>Developed a Python-based system to automate Linux patching for PostgreSQL servers using internal AWS tooling.</li>
+              <li>Contributed infrastructure work for internal Infra DNS as part of new TLV region development.</li>
+              <li>Helped transfer Route53 health check modification ownership from service team to cloud support engineering.</li>
+              <li>Used DynamoDB and S3 to move DNS permission requests from tickets to a UI workflow with real-time feedback.</li>
+              <li>Built and maintained Python automation scripts to streamline team operations.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <header>
+              <h3>Instabase · Product Reliability Engineer</h3>
+              <p>Feb 2022 — Jun 2022</p>
+            </header>
+            <ul>
+              <li>Deployed and debugged Instabase application across AWS, GCP, Azure, and OpenShift Kubernetes clusters in customer environments.</li>
+              <li>Developed Python scripts to automate deployment and add validation checks.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <header>
+              <h3>PEAK6 Investments · Linux System Engineer</h3>
+              <p>Jun 2019 — Feb 2022</p>
+            </header>
+            <ul>
+              <li>Served in rotating Tier 2 production support, troubleshooting critical market-hours incidents with trader support and development teams.</li>
+              <li>Built monitoring scripts for infrastructure and business-logic health using Python, Bash, and SaltStack.</li>
+              <li>Set up and managed 10 Kafka/Zookeeper clusters with high availability across two datacenters.</li>
+              <li>Maintained and improved VMware ESXi infrastructure.</li>
+              <li>Implemented and tested persistent storage solutions on bare-metal Kubernetes (Pure Storage, OpenEBS, Rook).</li>
+              <li>Designed, built, and managed ELK stack for centralized logging.</li>
+              <li>Used Ansible to standardize iDRAC configurations for faster server console access.</li>
+              <li>Troubleshot Linux, Kubernetes, Checkmk, Kafka, OpenStack, iSCSI storage, and ELK issues.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <header>
+              <h3>Blizzard Entertainment · Network Administrator Intern</h3>
+              <p>May 2018 — Aug 2018</p>
+            </header>
+            <ul>
+              <li>Configured ZTP on Cumulus Linux switches for management network deployment in Blizzard's new Australia datacenter.</li>
+              <li>Designed and tested management network in GNS3 using MPLS, OSPF, and STP with Cumulus switches.</li>
+              <li>Created Ansible automation for edge device provisioning and Ubuntu installation workflows.</li>
+              <li>Tested Nexus 9k sFlow telemetry pipeline with InfluxDB and Kapacitor alerting.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <header>
+              <h3>ITaP (Purdue University) · Data Networking Tier II Support</h3>
+              <p>Oct 2017 — May 2018</p>
+            </header>
+            <ul>
+              <li>Monitored Purdue network data with Splunk and Libre; generated incident tickets for network teams.</li>
+              <li>Worked on Python tooling to identify switches with outdated network configurations.</li>
+              <li>Built scripts to pull room/device temperature data from Libre and display alerts in Splunk dashboards.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <header>
+              <h3>Purdue Agriculture Department Research · Python Programmer</h3>
+              <p>May 2017 — Aug 2017</p>
+            </header>
+            <ul>
+              <li>Developed Python app to scrape and analyze GMO-related Twitter activity.</li>
+              <li>Collected data using Twitter APIs and applied Naive Bayes filtering.</li>
+              <li>Worked with both REST and streaming APIs for data collection.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="chip-grid" role="list" aria-label="Skills list">
+            <span class="chip" role="listitem">Python</span>
+            <span class="chip" role="listitem">Bash</span>
+            <span class="chip" role="listitem">Ansible</span>
+            <span class="chip" role="listitem">AWS</span>
+            <span class="chip" role="listitem">Kubernetes</span>
+            <span class="chip" role="listitem">OpenShift</span>
+            <span class="chip" role="listitem">Linux</span>
+            <span class="chip" role="listitem">PostgreSQL</span>
+            <span class="chip" role="listitem">MongoDB</span>
+            <span class="chip" role="listitem">Kafka / Zookeeper</span>
+            <span class="chip" role="listitem">ELK Stack</span>
+            <span class="chip" role="listitem">VMware ESXi</span>
+            <span class="chip" role="listitem">SaltStack</span>
+            <span class="chip" role="listitem">Prometheus / Grafana</span>
+            <span class="chip" role="listitem">OpenStack</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section section-alt">
+        <div class="container">
+          <h2>Education</h2>
+          <article class="timeline-item">
+            <header>
+              <h3>Purdue University · West Lafayette, IN</h3>
+              <p>Bachelor of Science in Network Engineering Technology · May 2019</p>
+            </header>
+          </article>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <div class="container">
+          <h2>Certifications</h2>
+          <div class="chip-grid" role="list" aria-label="Certification list">
+            <span class="chip" role="listitem">CKA (Certified Kubernetes Administrator)</span>
+            <span class="chip" role="listitem">CompTIA Linux+</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container narrow">
+          <h2>Contact</h2>
+          <ul class="contact-list">
+            <li>Phone: <a href="tel:+13179387081">317-938-7081</a></li>
+            <li>Email: <a href="mailto:tahaq786@gmail.com">tahaq786@gmail.com</a></li>
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/taha-qureshi-178a55158" target="_blank" rel="noreferrer">
+                linkedin.com/in/taha-qureshi-178a55158
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Taha Qureshi. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
